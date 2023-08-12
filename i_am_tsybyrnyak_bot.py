@@ -66,7 +66,7 @@ def send_welcome(message):
 @bot.message_handler(commands=['source'])
 def source(message):
     kbi = types.InlineKeyboardMarkup()
-    btngit = types.InlineKeyboardButton(text='Github', url='https://github.com/')
+    btngit = types.InlineKeyboardButton(text='Github', url='https://github.com/itsybyrnyak/i_am_tsybyrnyak_bot.git')
     kbi.add(btngit)
     bot.send_message(message.chat.id, 'Исходный код:', reply_markup=kbi)
 
