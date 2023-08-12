@@ -5,7 +5,7 @@ import os
 import speech_recognition as sr
 
 language='ru_RU'
-bot = telebot.TeleBot("6637352108:AAE_d1bqcmqDukkD9xaT5pT7_Z0AtrhAgIk")
+bot = telebot.TeleBot("TOKEN")
 r = sr.Recognizer()
 
 def recognise(filename):
